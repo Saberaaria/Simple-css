@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Media/fontawesome/css/all.min.css">
+</head>
+  <style>
+    body{margin: 0px;
+         padding: 0px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+     nav{background-color: rgb(31, 105, 139);
+         padding-right: 50px;
+         box-sizing: border-box;
+     }
+     nav h1{padding: 22px;
+            background-color: rgb(28, 77, 100);
+            width: 140px;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0px;
+            color: white
+     }
+     nav button{font-size: 30px;
+              background-color: rgb(87, 88, 85);
+              padding: 22px 34px;
+              color: white;
+              margin-left: 140px;
+              border: none;
+     }
+     .dropdown ul{background-color: white;
+                  width: 250px;
+                  margin: 0px;
+                  padding: 0px;
+                  box-shadow: 3px 3px 7px gray;
+     }
+     .dropdown ul a{text-decoration: none;
+                     color: black;
+                     background-color: white;
+                     padding: 9px;
+                     display: block;
+     }
+     .dropdown ul a:hover{background-color: gray;
+     }
+     .dropdown{display: none;
+                position: absolute;
+                left: 280px;
+     }
+    .butn:hover~.dropdown{display: block;
+    }
+    nav img{float: right;
+          border-radius: 100%
+    }
+    .sec1{width: 30%;
+         display: inline-block;
+         margin-top: 30px
+      }
+   .div1 img{border-radius: 100%
+    }
+   .div1{text-align: center;
+             width: 100%;
+             box-shadow: 3px 3px 8px gray;
+             padding-bottom: 20px;
+             display: inline-block;
+             padding-left: 20px;
+             box-sizing: border-box
+    }
+    .div1 h4{text-align: left
+    }
+    .div2{width: 100%;
+          background-color: rgb(24, 104, 158);
+          color: white;
+          padding: 10px 30px;
+          box-sizing: border-box;
+          box-shadow: 3px 3px 8px gray;
+    }
+    .div3{width: 100%;
+         padding: 10px 20px;
+         box-sizing: border-box;
+          box-shadow: 3px 3px 8px gray;
+    }
+    .div3 .button{padding: 12px;
+                 width: 100px;
+                 background-color: rgb(18, 77, 116);
+                 color: white;
+                 border: none
+    }
+    .butn44{padding: 12px;
+                 width: 100px;
+                 background-color: rgb(34, 131, 196);
+                 color: white;
+                 border: none
+
+    }
+    .div4{width: 100%;
+         padding: 10px 20px;
+         box-sizing: border-box;
+          box-shadow: 3px 3px 8px gray;
+          background-color: rgb(187, 186, 186)
+    }
+    .sec2{width: 40%;
+          display: inline-block;
+          vertical-align: top
+    }
+    .div5{width: 100%;
+         box-shadow: 3px 3px 8px gray;
+         color: gray;
+         padding-bottom: 10px;
+         margin-left: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+         box-sizing: border-box
+    }
+    .div5 h5{border: 1px solid black;
+             padding: 10px 0px
+   }
+   .div5 button{padding: 12px;
+                width: 100px;
+                background-color: rgb(143, 140, 140);
+                color: white;
+                border: none
+   }
+   .div6{width: 100%;
+         box-shadow: 3px 3px 8px gray;
+         color: gray;
+         vertical-align: top;
+         padding-bottom: 10px;
+         margin-left: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+         box-sizing: border-box;
+   }
+   .div6 .img1{border-radius: 100%
+   }
+   .div6 h4{width: 200px;
+           display: inline-block;
+           vertical-align: top
+   }
+   .div6 span{float: right
+   }
+   .div6 button{padding: 12px;
+                width: 100px;
+                background-color: rgb(143, 140, 140);
+                color: white;
+                border: none
+   }
+   .div7{width: 100%;
+         box-shadow: 3px 3px 8px gray;
+         color: gray;
+         padding-bottom: 10px;
+         margin-left: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+         box-sizing: border-box;
+   }
+   .div7 h4{width: 200xp;
+           display: inline-block;
+           vertical-align: top;
+   }
+   .div7 span{float: right;}
+   .buttonn{padding: 12px;
+                width: 100px;
+                background-color: rgb(143, 140, 140);
+                color: white;
+                border: none
+   }
+   .div7 img{border-radius: 100%
+   }
+   .div8{ width: 100%;
+         box-shadow: 3px 3px 8px gray;
+         color: gray;
+         padding-bottom: 10px;
+         margin-left: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+         box-sizing: border-box;
+  }
+  .div8 h4{width: 200xp;
+           display: inline-block;
+           vertical-align: top;
+   }
+   .div8 span{float: right;
+   }
+   .img1{border-radius: 100%
+   }
+   .sec3{display: inline-block;
+        width: 28%;
+         vertical-align: top
+    }
+   .div9{text-align: center;
+             width: 100%;
+             box-shadow: 3px 3px 8px gray;
+             padding-bottom: 20px;
+             margin-left: 10px
+   }
+   .div9 h3{color: rgb(179, 179, 179)
+   }
+   .div9 button {width: 80%;
+                 border: none;
+                 background-color: rgb(179, 179, 179);
+                 padding: 10px
+   }
+  .div10{text-align: center;
+             width: 100%;
+             box-shadow: 3px 3px 8px gray;
+             padding-bottom: 20px;
+             margin-left: 10px
+  }
+  #dif{width: 140px;
+      height: 30px;
+      background-color: greenyellow;
+      display: inline-block
+  }
+  #diff{width: 140px;
+      height: 30px;
+      background-color: rgb(240, 57, 57);
+      display: inline-block
+  }
+  .div11{ width: 100%;
+           height: 140px;
+             box-shadow: 3px 3px 8px gray;
+             padding-bottom: 20px;
+             margin-left: 10px;
+             text-align: center;
+             padding-top: 28px;
+             box-sizing: border-box
+  }
+  .div12{ width: 100%;
+           height: 110px;
+             box-shadow: 3px 3px 8px gray;
+             padding-bottom: 20px;
+             margin-left: 10px;
+             padding-top: 28px;
+             box-sizing: border-box
+  }
+  
+   
+   
+  </style>
+<body>
+    <nav>
+       <h1>Logo</h1>
+       <button class="butn">3</button>
+       <div class="dropdown">
+          <ul>
+              <a href="">One more freind requwst</a>
+              <a href="">John Doe posted on your wall</a>
+              <a href="">Janes like your post</a>
+          </ul>
+      </div>
+     <img src="../Media/Screenshot_2024-09-16-21-15-45.png" alt="" width="40px" height="40px">
+    </nav>
+    
+      <section class="sec1">
+          <div class="div1">
+              <h1>My Profile</h1>
+              <img src="../Media/Screenshot_2024-09-16-21-16-41.png" alt="picture here" width="140px" height="140px">
+              <hr>
+              <h4>Designer,UI</h4>
+              <h4>London,Uk</h4>
+              <h4>April 1,1988</h4>
+            </div>
+       <br><br>
+            <div class="div2">
+              <h4>My Groups</h4>
+              <h4>My Events</h4>
+              <h4>My Phtos</h4>
+            </div>
+      <br>
+            <div class="div3">
+                <h4>Interests</h4>
+                 <button class="button">News</button>
+                 <button class="button">W3school</button>
+                 <button class="button">Labels</button>
+                 <button class="button">Games</button>  <br><br>
+                 <button class="butn44">Friends</button>
+                 <button class="butn44">Games</button>
+                 <button class="butn44">Friends</button>
+                 <button class="butn44">Foods</button>   <br><br>
+                 <button class="butn44">News</button>
+                 <button class="butn44">Photos</button>
+                
+              </div>
+       <br>
+              <div class="div4">
+                 <h4>Hey!</h4>
+                 <p>People are looking at your profile .find out who.</p>
+              </div>
+      </section>
+     
+      <section class="sec2">
+    <br>
+        <div class="div5">
+            <p>Social Media Template for W3.css</p>
+            <h5>Status:Feel Blue</h5>
+            <button>Post</button>
+       </div>
+   <br>
+        <div class="div6">
+            <img class="img1" src="../Media/123.png" alt="picture here" width="120px" height="120px">
+             <h4>John Doe</h4>
+             <span>1m</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Dicta beatae doloribus facere incidunt non, nemo suscipit
+                debitis enim aperiam excepturi, qui earum alias cupiditate
+                 animi dolore expedita. Omnis, veniam modi? Lorem ipsum dolor
+                  sit amet consectetur adipisicing elit. Error sequi, inventore,
+             </p>
+             <img src="../Media/IMG_01322.jpg" alt="picture here" width="280px" height="220px">
+             <img src="../Media/IMG_20240903_172420_612.jpg" alt="picture here" width="280px" height="220px">
+             <button>Like</button>  
+             <button>Comment</button>
+          </div>
+      <br>
+          <div class="div7">
+              <img class="img1" src="../Media/123.png" alt="picture here" width="120px" height="120px">
+               <h4>John Doe</h4>
+               <span>16m</span>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Dicta beatae doloribus facere incidunt non, nemo suscipit
+                  debitis enim aperiam excepturi, qui earum alias cupiditate
+                   animi dolore expedita. Omnis, veniam modi? Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Error sequi, inventore,
+               </p>
+               <button class="buttonn">Like</button>  
+               <button class="buttonn">Comment</button>
+            </div>
+        <br><br>
+            <div class="div8">
+                <img class="img1" src="../Media/Screenshot_2024-09-16-21-17-20.png" alt="picture here" width="120px" height="120px">
+                <h4>John Doe</h4>
+                <span>35m</span>
+                <p>Have you seen this?</p>
+                <img src="../Media/IMG_0102.JPG" alt="picture here" width="99%" height="390px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta beatae doloribus facere incidunt non, nemo suscipit
+                     debitis enim aperiam excepturi, qui earum alias cupiditate
+                      animi dolore expedita. Omnis, veniam modi? Lorem ipsum dolor
+                       sit amet consectetur adipisicing elit. Error sequi, inventore,
+                  </p>
+                  <button class="buttonn">Like</button>  
+                  <button class="buttonn">Comment</button>
+            </div>
+    
+    </section>
+     
+   <section class="sec3">
+     <br>
+      <div class="div9">
+          <h3>Uncoming Event</h3>
+          <img src="../Media/IMG_0133.JPG" alt="picture here" width="300px" height="180px">
+          <h4>Holiday</h4>
+          <span>Friday 15:00</span>   <br><br>
+          <button>Info</button>
+        </div>
+
+        <div class="div10">
+            <h3>Freind Requests</h3>
+            <img src="../Media/Screenshot_2024-09-16-21-15-45.png" alt="picture here" width="170px" height="170px">
+            <h4>John Doe</h4>
+            <div id="dif"></div>
+            <div id="diff"></div>
+        </div>
+  <br>
+        <div class="div11">
+          <h1>Ads</h1>
+        </div>
+  <br>
+  <div class="div12"></div>
+   </section>
+</body>
+</html>
